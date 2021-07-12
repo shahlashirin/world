@@ -1,0 +1,6 @@
+<img src="{{results.image.url}}" alt="" style="width:250px;height:250px;" ><br>
+{{results.name}}<br>
+{{results.desc}}<br>
+
+<a  href="{% url 'blogapp:update' results.id %}"><button>UPDATE</button></a>
+<a  href="{% url 'blogapp:delete' results.id %}"><button>DELETE</button></a>
